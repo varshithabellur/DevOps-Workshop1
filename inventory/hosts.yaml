@@ -11,3 +11,8 @@ all:
       hosts:
         bar.example.com:
           ansible_connection: local
+          
+  shooolserver:
+      hosts:
+        f.example.com:
+          ansible_connection: local
